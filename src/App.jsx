@@ -1,25 +1,24 @@
 
 import './App.css'
-
+import HEI_logo from './assets/HEI_logo.png'
 function App() {
  
 
   return (
     <>
-      
-        <nav>
-          <img src=''>
-          </img>
-          <ul> 
-            <li>ACCUEIL</li>
-            <li>ACTUALITES</li>
-            <li>BOURSE D'ETUDES</li>
-            <li>INSCRIPTIOIN</li>
-          </ul>
-            <button className='bg-white'>INTRANET </button>
-        </nav>
-      <section>
-        <h1 >Haute Ecoles d'Informatique </h1>
+
+      <nav className={"bg-blue-950 text-white font-bold text-lg flex justify-center py-4.5 gap-91"}>
+        <img src={HEI_logo} alt="HEI logo" className={"w-22.5 h-auto"} />
+        <ul className={"flex flex-row gap-8 items-center"}>
+          <li><a href="" className={"text-yellow-600"}>ACCUEIL</a></li>
+          <li><a href="" className={"hover:text-yellow-600"}>ACTUALITES</a></li>
+          <li><a href="" className={"hover:text-yellow-600"}>BOURSE D'ETUDES</a></li>
+          <li><a href="" className={"hover:text-yellow-600"}>INSCRIPTION</a></li>
+          <li className={"bg-yellow-500 px-4 py-1.5 rounded-sm font-medium hover:text-blue-950"}><a href="">INTRANET</a></li>
+        </ul>
+      </nav>
+      <section className={"flex flex-col justify-center text-center"}>
+        <h1 className={"text-5xl"}>Haute Ecoles d'Informatique </h1>
         <p>"L'education est l'armes le plus puissant pour changer le monde"
           selon NELSON MANDELA. " L'EDUCATION DANS L'informatique est une arme tres puissante pour lutter contre la povrette a Madagascar "
           selon HEI. C'est notre mission.
