@@ -7,7 +7,7 @@ function App() {
   return (
     <>
 
-      <nav className={"bg-blue-950 text-white font-bold text-lg flex justify-center py-4.5 gap-91"}>
+      <nav className={"bg-blue-950 text-white font-bold text-lg flex justify-evenly py-4.5"}>
         <img src={HEI_logo} alt="HEI logo" className={"w-22.5 h-auto"} />
         <ul className={"flex flex-row gap-8 items-center"}>
           <li><a href="" className={"text-yellow-600"}>ACCUEIL</a></li>
@@ -29,10 +29,11 @@ function App() {
         <p>
           Des entreprise partenaire et une equipes pedagogique et administrative qui travaille sans relache pour la montee en competences de nos etudiants.
         </p>
-        <button>Inscrivez-vous ici </button>
-        <button> Emploi du temps</button>
-        <button>Programme pedagogique</button>
-
+        <div className={"flex flex-row justify-around "}>
+          <button className={"bg-white py-2 px-10"}>Inscrivez-vous ici </button>
+          <button className={"bg-yellow-500 py-2 px-10"}> Emploi du temps</button>
+          <button className={"bg-blue-950 py-2 px-5"}>Programme pedagogique</button>
+        </div>
         <p>Habilitation MESupRES,suivant l'arret nn°31309/2023</p>
       </section>
       <section>
