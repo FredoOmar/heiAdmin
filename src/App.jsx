@@ -1,6 +1,7 @@
 
 import './App.css'
 import HEI_logo from './assets/HEI_logo.png'
+import SliderAuto from "./components/SliderAuto";
 function App() {
  
 
@@ -17,24 +18,8 @@ function App() {
           <li className={"bg-yellow-500 px-4 py-1.5 rounded-sm font-medium hover:text-blue-950"}><a href="">INTRANET</a></li>
         </ul>
       </nav>
-      <section className={"flex flex-col justify-center text-center"}>
-        <h1 className={"text-5xl"}>Haute Ecoles d'Informatique </h1>
-        <p>"L'education est l'armes le plus puissant pour changer le monde"
-          selon NELSON MANDELA. " L'EDUCATION DANS L'informatique est une arme tres puissante pour lutter contre la povrette a Madagascar "
-          selon HEI. C'est notre mission.
-        </p>
-        <p>Une infrastructure de qualiter et un programme pedagosique qualiter
-          repond au besoin du marcher pour ll'emploiyabilite de nos etudiants.
-        </p>
-        <p>
-          Des entreprise partenaire et une equipes pedagogique et administrative qui travaille sans relache pour la montee en competences de nos etudiants.
-        </p>
-        <div className={"flex flex-row justify-around "}>
-          <button className={"bg-white py-2 px-10"}>Inscrivez-vous ici </button>
-          <button className={"bg-yellow-500 py-2 px-10"}> Emploi du temps</button>
-          <button className={"bg-blue-950 py-2 px-5"}>Programme pedagogique</button>
-        </div>
-        <p>Habilitation MESupRES,suivant l'arret nn°31309/2023</p>
+      <section>
+        <SliderAuto />
       </section>
       <section>
         <h2> A propos de nous </h2>
