@@ -2,10 +2,11 @@ import './App.css'
 import HEI_logo from './assets/HEI_logo.png'
 import SliderAuto from "./components/SliderAuto";
 import TeamSlide from "./components/TeamSlide";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGraduationCap, faArrowRight} from '@fortawesome/free-solid-svg-icons';
 import {faUsers} from '@fortawesome/free-solid-svg-icons';
 import {faMedal} from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faFacebook, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import bg_2 from './assets/HEI_4.png';
 import debouche from './assets/debouche.png'
 import Cybersecu from './assets/Cybersecu.png'
@@ -319,9 +320,12 @@ function App() {
                         <div className={"flex flex-col text-white w-1/4"}>
                             <h2 className={" font-bold"}>Médias sociaux</h2>
                             <div className={"flex flex-row gap-4 my-4"}>
-                                <i className="fa-brands fa-facebook text-amber-500 text-3xl"></i>
-                                <i className="fa-brands fa-linkedin  text-amber-500 text-3xl"></i>
-                                <i className="fa-brands fa-instagram  text-amber-500 text-3xl"></i>
+                                <FontAwesomeIcon icon={faFacebook}
+                                                 className={"w-5 border-8 rounded-full border-yellow-500 bg-yellow-500"}/>
+                                <FontAwesomeIcon icon={faLinkedin}
+                                                 className={"w-5 border-8 rounded-full border-yellow-500 bg-yellow-500"}/>
+                                <FontAwesomeIcon icon={faInstagram}
+                                                 className={"w-5 border-8 rounded-full border-yellow-500 bg-yellow-500"}/>
                             </div>
                         </div>
                     </div>
