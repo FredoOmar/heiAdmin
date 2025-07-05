@@ -12,6 +12,21 @@ import debouche from './assets/debouche.png'
 import Cybersecu from './assets/Cybersecu.png'
 import IA from './assets/IA.png'
 import Logicielle from './assets/Logicielle.png'
+import Programme from './assets/Programme.png'
+import Programme_1 from './assets/Programme_1.jpg'
+import Programme_2 from './assets/Programme_2.jpg'
+import Programme_3 from './assets/Programme_3.jpg'
+import Java from './assets/Java.png'
+import JS from './assets/JS.png'
+import TS from './assets/TS.png'
+import C from './assets/C.png'
+import Python from './assets/Python.png'
+import Docker from './assets/Docker.png'
+import Next from './assets/Next.png'
+import Aws from './assets/Aws.png'
+import Serverless from './assets/Serverless.png'
+import React from './assets/React.png'
+import Openapi from './assets/Openapi.png'
 function App() {
  
 
@@ -146,122 +161,64 @@ function App() {
                 <button className={"bg-blue-950 p-2 hover:bg-white hover:text-blue-950 transition-colors duration-400 cursor-pointer"}><a href="https://drive.google.com/drive/folders/1saqFZ9ZWkQ-QHZheOvY8nAzIBRy0MkA0">Resultat conncours</a></button>
             </div>
         </section>
-      <section>
-        <h5>Domaines</h5>
-        <p>Au cours de vos trois ans de formation, naviguez entre les domaines les plus porteurs du numérique du présent et de l’avenir :</p>
-        <div>
-          <i>icone</i>
-          <h4>Cloud et cybersécurité</h4>
-          <p>Maîtrisez les engrenages des outils en ligne interconnectés sur les nuages (comme sur AWS). Ou encore, 
-            devenez maître de la sécurisation des données en ligne ou des programmes et applications contre les cybermenaces. 
-            Chez HEI, vous allez vous former dans le domaine du cloud et de la cybersécurité.</p>
-        </div>
-        <div>
-          <i>icone</i>
-          <h4>Intelligence artificielle</h4>
-          <p>Le monde de la reconnaissance faciale ou la détection 
-            d’obstacles par les voitures semi-autonomes vous fascinent ? Ce n’est pas sorcier, 
-            cela s’apprend. Apprenez les bases de l’intelligence artificielle lors de vos cours chez HEI.</p>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <h4>Ingénierie logicielle</h4>
-          <p>Apprenez les principes de la conception ou le développement de programmes et 
-            d’applications web et mobile et explorez le monde fascinant des “codes”. A la fin de votre formation, 
-            vous serez aptes à proposer des solutions pratiques, créatives et innovantes à des particuliers ou des entreprises 
-            pour leurs besoins numériques.</p>
-        </div>
-      </section>
-      <section>
-        <div>
-          <h5>Admission</h5>
-          <p>Ouverte aux bacheliers de toutes les séries, l’admission chez HEI se fait par test de niveau :
-              une épreuve de français niveau B2 et d’une épreuve de mathématiques niveau Terminale D. </p>
-              <div>
-                <div>
-                  <h1>01</h1>
-                  <h3>Dépôt de dossiers</h3>
-                  <p>: pour les bacheliers de toutes séries sans limite d’âge</p>
-                  <i>icone </i>
+        <section className={"flex flex-col text-lg text-blue-950 max-w-6xl mx-auto justify-center py-10 gap-5"}>
+            <div className={"flex flex-row items-center gap-5 py-10"}>
+                <img src={Programme} alt="" className={"w-[460px] object-cover"}/>
+                <div className={"flex flex-col justify-start gap-10"}>
+                    <h2 className={"text-5xl"}>Le programme pedagogique</h2>
+                    <p>Suivant le système LMD, jusqu’au Master, notre formation repose sur un programme pédagogique conçu en adéquation avec les attentes du marché. La formation est sanctionnée par un diplôme de Licence et de Master en Informatique reconnu par le MESupRes de Madagascar.</p>
+                    <button className={"w-fit font-bold p-2.5 border-3 border-blue-950 hover:bg-blue-950 hover:text-white transition-colors duration-400"}><a href="https://drive.google.com/file/d/1FdooEeAKPO5ucNKXMnyEBZ3RTTE80q7e/view">Notre Programme</a></button>
                 </div>
-                <div>
-                  <h1>02</h1>
-                  <h3>Test de niveau :</h3>
-                  <p>composé d’une épreuve de français niveau B2 et d’une épreuve de mathématiques niveau Terminale D</p>
-                  <i>icone fleche</i>
+            </div>
+            <div className={"flex flex-row gap-5"}>
+                <div className={"flex flex-col font-bold w-1/4 h-[230px] bg-yellow-100 rounded-2xl p-5 gap-5"}>
+                    <h3 className={"text-5xl text-yellow-600"}>25%</h3>
+                    <p className={"text-xl"}>Apprentissage theorique en presentiel</p>
                 </div>
-                <div>
-                  <h1>03</h1>
-                  <h3>Inscription définitive</h3>
-                  <p>si test réussi</p>
+                <div className={"flex flex-col font-bold w-1/4 h-[230px] bg-yellow-100 rounded-2xl p-5 gap-5"}>
+                    <h3 className={"text-5xl text-yellow-600"}>25%</h3>
+                    <p className={"text-xl"}>Apprentissage theorique en presentiel</p>
                 </div>
-                <button>Inscrivez-vous ici</button>
-                <button>Resulat concours</button>
-              </div>
-        </div>
-      </section>
-      <section>
-        <div>
-          <div>
-            <img src="" alt="" />
-          </div>
-          <div>
-            <h1>Le programme pédagogique</h1>
-            <p>Suivant le système LMD, jusqu’au Master, notre formation repose sur un programme pédagogique conçu en adéquation avec les attentes du marché. La formation est sanctionnée par un diplôme de Licence et de Master 
-              en Informatique reconnu par le MESupRes de Madagascar.</p>
+                <div className={"flex flex-col font-bold w-1/4 h-[230px] bg-yellow-100 rounded-2xl p-5 gap-5"}>
+                    <h3 className={"text-5xl text-yellow-600"}>25%</h3>
+                    <p className={"text-xl"}>Apprentissage theorique en presentiel</p>
+                </div>
+                <div className={"flex flex-col font-bold w-1/4 h-[230px] bg-yellow-100 rounded-2xl p-5 gap-5"}>
+                    <h3 className={"text-5xl text-yellow-600"}>25%</h3>
+                    <p className={"text-xl"}>Apprentissage theorique en presentiel</p>
+                </div>
 
-
-              <button>Notre Programme</button>
-          </div>
-          <div>
-            <div>
-              <h1>25%</h1>
-              <p>Apprentissage théoriques en présentiel</p>
             </div>
-            <div>
-              <h1>25%</h1>
-              <p>Apprentissage sur supports numériques</p>
+            <div className={"flex flex-row gap-2 w-fit"}>
+                <img src={Programme_1} alt="" className={"w-[380PX] object-cover"} />
+                <img src={Programme_2} alt="" className={"w-[380PX] object-cover"} />
+                <img src={Programme_3} alt="" className={"w-[380PX] object-cover"} />
             </div>
-            <div>
-              <h1>25%</h1>
-              <p>Travaux individuels de l’étudiant</p>
+        </section>
+        <section className={"flex flex-col text-blue-950 bg-gray-100 items-center text-center text-lg gap-10 py-15"}>
+            <div className={"flex flex-col max-w-6xl mx-auto gap-10"}>
+                <div className={"flex flex-col gap-2.5 mb-2.5"}>
+                    <h2 className={"text-5xl font-bold"}>Les technos et langages utilisées</h2>
+                    <p>Nos étudiants sont formés à l’utilisation et à la maîtrise des langages de programmation Java et JavaScript. Ces deux langages occupent une place de choix dans le domaine du développement logiciel et du web, offrant une polyvalence et une robustesse appréciées par les développeurs à travers le monde.</p>
+                </div>
+                <div className={"flex flex-row justify-between"}>
+                    <img src={Java} alt="" />
+                    <img src={Python} alt="" />
+                    <img src={JS} alt="" />
+                    <img src={C} alt="" />
+                    <img src={TS} alt="" />
+                </div>
+                <div className={"flex flex-row justify-between"}>
+                    <img src={Docker} alt="" className={"w-[158] h-10 object-cover"} />
+                    <img src={Next} alt="" className={"w-25 h-15 object-cover"} />
+                    <img src={Aws} alt="" className={"w-20.5 h-12 object-cover"} />
+                    <img src={Serverless} alt="" className={"w-41.5 h-12.5 object-cover"} />
+                    <img src={React} alt="" className={"w-30 h-10 object-cover"} />
+                    <img src={Openapi} alt="" className={"w-37.5 h-17.5 object-cover"} />
+                </div>
             </div>
-            <div>
-              <h1>25%</h1>
-              <p>Apprentissage en entreprise</p>
-            </div>
-            <div>
-              <div><img src="" alt="" /></div>
-              <div><img src="" alt="" /></div>
-              <div><img src="" alt="" /></div>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
       <section>
-        <div>
-          <div>
-            <p>Nos étudiants sont formés à l’utilisation et à la maîtrise des langages de programmation Java et JavaScript. Ces deux langages occupent une place de choix dans le domaine du développement logiciel et du web, offrant une polyvalence et une robustesse
-              appréciées par les développeurs à travers le monde.</p>
-          </div>
-          <div>
-            <div>//logo techno
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-            </div>
-            <div>
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-            </div>
-          </div>
-        </div>
         <div>
           <div>
           <h1>Nos partenaires</h1>
