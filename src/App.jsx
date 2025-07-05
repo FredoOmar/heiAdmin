@@ -142,7 +142,7 @@ function App() {
                 </div>
             </div>
             <div className={"flex gap-10 font-semibold text-xl"}>
-                <button className={"border-white border-2 p-2 hover:bg-blue-950 hover:border-none transition-colors duration-400 cursor-pointer"}><a href="https://hei.school/inscription/">Inscrivez-vous ici</a></button>
+                <button className={"border-white border-2 p-2 hover:bg-blue-950 hover:border-blue-950 transition-colors duration-400 cursor-pointer"}><a href="https://hei.school/inscription/">Inscrivez-vous ici</a></button>
                 <button className={"bg-blue-950 p-2 hover:bg-white hover:text-blue-950 transition-colors duration-400 cursor-pointer"}><a href="https://drive.google.com/drive/folders/1saqFZ9ZWkQ-QHZheOvY8nAzIBRy0MkA0">Resultat conncours</a></button>
             </div>
         </section>
