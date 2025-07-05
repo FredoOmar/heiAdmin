@@ -3,7 +3,6 @@ import './App.css'
 import HEI_logo from './assets/HEI_logo.png'
 import SliderAuto from "./components/SliderAuto";
 import TeamSlide from "./components/TeamSlide";
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faUsers } from '@fortawesome/free-solid-svg-icons';
@@ -26,7 +25,7 @@ function App() {
           <li><a href="" className={"hover:text-yellow-600"}>ACTUALITES</a></li>
           <li><a href="" className={"hover:text-yellow-600"}>BOURSE D'ETUDES</a></li>
           <li><a href="" className={"hover:text-yellow-600"}>INSCRIPTION</a></li>
-          <li className={"bg-yellow-500 px-4 py-1.5 rounded-sm font-medium hover:text-blue-950"}><a href="">INTRANET</a></li>
+          <li className={"bg-yellow-500 px-4 py-1.5 rounded-sm font-medium hover:text-blue-950"}><a href="https://admin.hei.school/login">INTRANET</a></li>
         </ul>
       </nav>
       <section>
@@ -83,7 +82,7 @@ function App() {
             <img src={debouche} alt="" className={"w-[460px]"} />
         </section>
         <section className={"bg-gray-100 text-blue-950 flex flex-col items-center justify-between gap-10 py-20"}>
-            <h2 className={"text-5xl"}>Domaine</h2>
+            <h2 className={"text-5xl font-bold"}>Domaines</h2>
             <p className={"text-lg"}>Au cours de vos trois ans de formation, naviguez entre les domaines les plus porteurs du numérique du présent et de l’avenir :</p>
             <div className={"flex flex-row gap-10"}>
                 <div className={"bg-white text-yellow-600 text-lg w-90 flex flex-col items-center text-center px-2.5 py-2.5 gap-2.5 rounded-2xl"}>
@@ -143,8 +142,8 @@ function App() {
                 </div>
             </div>
             <div className={"flex gap-10 font-semibold text-xl"}>
-                <button className={"border-white border-2 p-2 hover:bg-white hover:text-blue-950 transition-colors duration-400 cursor-pointer"}>Inscrivez-vous ici</button>
-                <button className={"bg-blue-950 p-2 hover:bg-white hover:text-blue-950 transition-colors duration-400 cursor-pointer"}>Resultat conncours</button>
+                <button className={"border-white border-2 p-2 hover:bg-blue-950 hover:border-none transition-colors duration-400 cursor-pointer"}><a href="https://hei.school/inscription/">Inscrivez-vous ici</a></button>
+                <button className={"bg-blue-950 p-2 hover:bg-white hover:text-blue-950 transition-colors duration-400 cursor-pointer"}><a href="https://drive.google.com/drive/folders/1saqFZ9ZWkQ-QHZheOvY8nAzIBRy0MkA0">Resultat conncours</a></button>
             </div>
         </section>
 

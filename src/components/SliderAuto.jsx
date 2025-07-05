@@ -55,13 +55,13 @@ export default function SliderAuto() {
 
                 <div className="flex gap-20 mt-6 justify-center font-semibold text-xl">
                     <button className="bg-white text-blue-950 px-5 py-2 rounded-sm">
-                        Inscrivez-vous ici
+                        <a href="https://hei.school/inscription/">Inscrivez-vous ici</a>
                     </button>
                     <button className="bg-yellow-600 px-5 py-2 rounded-sm">
-                        Emploi du temps
+                        <a href="https://admin.hei.school/calendar">Emploi du temps</a>
                     </button>
                     <button className="bg-blue-950 px-5 py-2 rounded-sm">
-                        Programme pédagogique
+                        <a href="https://drive.google.com/file/d/1FdooEeAKPO5ucNKXMnyEBZ3RTTE80q7e/view">Programme pédagogique</a>
                     </button>
                 </div>
 
