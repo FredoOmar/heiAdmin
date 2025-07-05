@@ -2,6 +2,11 @@
 import './App.css'
 import HEI_logo from './assets/HEI_logo.png'
 import SliderAuto from "./components/SliderAuto";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faUsers } from '@fortawesome/free-solid-svg-icons';
+import { faMedal } from '@fortawesome/free-solid-svg-icons';
+import bg_2 from './assets/HEI_4.png';
 function App() {
  
 
@@ -21,18 +26,37 @@ function App() {
       <section>
         <SliderAuto />
       </section>
-      <section>
-        <h2> A propos de nous </h2>
-        <i> +3ans </i>
-        <p>Depuis 3 ans, nous formons ceux qui décodent le futur, aux métiers de l’informatique. Nous sommes un groupe d’experts, de professionnels et des passionnés de l’informatique de
-        Madagascar et du monde entier.</p>
-        <i>+250 etudiants</i>
-        <p>Plus de 250 étudiants et plus d’une dizaine d’entreprises ont déjà fait confiance à notre formation habilitée par l’État malgache. Avec eux tous, nous sommes fiers de pouvoir parler 
-        de la “grande famille HEI”.</p>
-        <i>Notre mission</i>
-        <p>Notre mission est d’amener des jeunes malgaches sur des domaines porteurs comme l’intelligence artificielle, la cybersécurité ou la programmation afin de favoriser leur employabilité et 
-        le développement de Madagascar.</p>
-      </section>
+        <section className={"flex flex-row max-w-6xl mx-auto gap-20"}>
+            <div className={"w-1/2 flex justify-end items-center"}>
+                <img src={bg_2} alt="" className={"object-cover"} />
+            </div>
+            <div className={"w-1/2 flex flex-col justify-center gap-12 text-lg text-blue-950 py-20"}>
+                <h1 className={"text-5xl font-semibold"}>A propos de nous</h1>
+                <div className={"flex flex-col gap-5"}>
+                    <header className={"flex flex-row items-center gap-3"}>
+                        <FontAwesomeIcon icon={faGraduationCap} className={"text-yellow-600 text-5xl"} />
+                        <h2 className={"text-2xl font-bold"}>+3ans</h2>
+                    </header>
+                    <p>Depuis 3 ans, nous formons ceux qui décodent le futur, aux métiers de l’informatique. Nous sommes un groupe d’experts, de professionnels et des passionnés de l’informatique de
+                        Madagascar et du monde entier.</p>
+                </div>
+                <div className={"flex flex-col gap-5"}>
+                    <header className={"flex flex-row items-center gap-3"}>
+                        <FontAwesomeIcon icon={faUsers} className={"text-yellow-600 text-5xl"}/>
+                        <h2 className={"text-2xl font-bold"}>+250 etutiants</h2>
+                    </header>
+                    <p>Plus de 250 étudiants et plus d’une dizaine d’entreprises ont déjà fait confiance à notre formation habilitée par l’État malgache. Avec eux tous, nous sommes fiers de pouvoir parler de la “grande famille HEI”.</p>
+                </div>
+                <div className={"flex flex-col gap-5"}>
+                    <header className={"flex flex-row items-center gap-3"}>
+                        <FontAwesomeIcon icon={faMedal} className={"text-yellow-600 text-5xl"}/>
+                        <h2 className={"text-2xl font-bold"}>Notre mission</h2>
+                    </header>
+                    <p>Notre mission est d’amener des jeunes malgaches sur des domaines porteurs comme l’intelligence artificielle, la cybersécurité ou la programmation afin de favoriser leur employabilité et le développement de Madagascar.</p>
+                </div>
+            </div>
+
+        </section>
       <section>
         <h5> L'équipe pédagogique</h5>
         <p>Notre équipe pédagogique se compose d’experts nationaux et internationaux de 
