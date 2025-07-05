@@ -146,8 +146,6 @@ function App() {
                 <button className={"bg-blue-950 p-2 hover:bg-white hover:text-blue-950 transition-colors duration-400 cursor-pointer"}><a href="https://drive.google.com/drive/folders/1saqFZ9ZWkQ-QHZheOvY8nAzIBRy0MkA0">Resultat conncours</a></button>
             </div>
         </section>
-<<<<<<< Updated upstream
-=======
       <section>
         <h5>Domaines</h5>
         <p>Au cours de vos trois ans de formation, naviguez entre les domaines les plus porteurs du numérique du présent et de l’avenir :</p>
@@ -211,7 +209,7 @@ function App() {
             <h1>Le programme pédagogique</h1>
             <p>Suivant le système LMD, jusqu’au Master, notre formation repose sur un programme pédagogique conçu en adéquation avec les attentes du marché. La formation est sanctionnée par un diplôme de Licence et de Master 
               en Informatique reconnu par le MESupRes de Madagascar.</p>
->>>>>>> Stashed changes
+
 
               <button>Notre Programme</button>
           </div>
