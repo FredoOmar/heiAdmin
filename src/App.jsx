@@ -5,7 +5,7 @@ import SliderAuto from "./components/SliderAuto";
 import TeamSlide from "./components/TeamSlide";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faUsers } from '@fortawesome/free-solid-svg-icons';
 import { faMedal } from '@fortawesome/free-solid-svg-icons';
 import bg_2 from './assets/HEI_4.png';
@@ -114,6 +114,37 @@ function App() {
                         pour leurs besoins numériques.
                     </p>
                 </div>
+            </div>
+        </section>
+        <section className={"bg-blue-400 flex flex-col justify-center items-center gap-5 text-white py-10 text-lg"}>
+            <h2 className={"text-5xl font-bold mb-5"}>Admission</h2>
+            <p>Ouverte aux bacheliers de toutes les séries, l’admission chez HEI se fait par test de niveau :</p>
+            <p>une épreuve de français niveau B2 et d’une épreuve de mathématiques niveau Terminale D.</p>
+            <div className={"flex flex-row text-blue-950 my-5"}>
+                <div className={"flex flex-row bg-yellow-200 w-100 h-60 gap-3 p-4"}>
+                    <div className={"flex flex-col gap-3"}>
+                        <h3 className={"text-6xl text-white font-bold"}>01</h3>
+                        <p><strong>Depot de dossiers : </strong>pour les bacheliers de toutes series sans limite d'age</p>
+                    </div>
+                    <FontAwesomeIcon icon={faArrowRight} className={"text-white text-5xl self-center"} />
+                </div>
+                <div className={"flex flex-row bg-yellow-300 w-100 h-60 gap-3 p-4"}>
+                    <div className={"flex flex-col gap-3"}>
+                        <h3 className={"text-6xl text-white font-bold"}>02</h3>
+                        <p><strong>Test de niveau : </strong>composé d’une épreuve de français niveau B2 et d’une épreuve de mathématiques niveau Terminale D</p>
+                    </div>
+                    <FontAwesomeIcon icon={faArrowRight} className={"text-white text-5xl self-center"} />
+                </div>
+                <div className={"flex flex-row bg-yellow-400 w-100 h-60 p-4"}>
+                    <div className={"flex flex-col gap-3"}>
+                        <h3 className={"text-6xl text-white font-bold"}>03</h3>
+                        <p><strong>Inscription définitive </strong>(si test réussi)</p>
+                    </div>
+                </div>
+            </div>
+            <div className={"flex gap-10 font-semibold text-xl"}>
+                <button className={"border-white border-2 p-2 hover:bg-white hover:text-blue-950 transition-colors duration-400 cursor-pointer"}>Inscrivez-vous ici</button>
+                <button className={"bg-blue-950 p-2 hover:bg-white hover:text-blue-950 transition-colors duration-400 cursor-pointer"}>Resultat conncours</button>
             </div>
         </section>
 
