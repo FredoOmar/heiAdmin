@@ -63,7 +63,7 @@ function App() {
 
         </section>
         <section className={"bg-blue-400 flex flex-col items-center text-center text-white text-lg gap-10 py-10"}>
-            <div className={"max-w-6xl flex flex-col gap-5"}>
+            <div className={" flex flex-col gap-5"}>
                 <h1 className={"text-5xl"}>L'equipe pedagogique</h1>
                 <p>Notre équipe pédagogique se compose d’experts nationaux et internationaux de l’informatique, de la cybersécurité, de l’intelligence artificielle, dont un ingénieur chez Google. Ils sont passionnés par l’informatique et sont engagés vers l’excellence. Nous sommes conscients que cette équipe est la pierre angulaire de l’employabilité de nos étudiants, elle a été soigneusement sélectionnée.</p>
             </div>
@@ -146,7 +146,185 @@ function App() {
                 <button className={"bg-blue-950 p-2 hover:bg-white hover:text-blue-950 transition-colors duration-400 cursor-pointer"}><a href="https://drive.google.com/drive/folders/1saqFZ9ZWkQ-QHZheOvY8nAzIBRy0MkA0">Resultat conncours</a></button>
             </div>
         </section>
+<<<<<<< Updated upstream
+=======
+      <section>
+        <h5>Domaines</h5>
+        <p>Au cours de vos trois ans de formation, naviguez entre les domaines les plus porteurs du numérique du présent et de l’avenir :</p>
+        <div>
+          <i>icone</i>
+          <h4>Cloud et cybersécurité</h4>
+          <p>Maîtrisez les engrenages des outils en ligne interconnectés sur les nuages (comme sur AWS). Ou encore, 
+            devenez maître de la sécurisation des données en ligne ou des programmes et applications contre les cybermenaces. 
+            Chez HEI, vous allez vous former dans le domaine du cloud et de la cybersécurité.</p>
+        </div>
+        <div>
+          <i>icone</i>
+          <h4>Intelligence artificielle</h4>
+          <p>Le monde de la reconnaissance faciale ou la détection 
+            d’obstacles par les voitures semi-autonomes vous fascinent ? Ce n’est pas sorcier, 
+            cela s’apprend. Apprenez les bases de l’intelligence artificielle lors de vos cours chez HEI.</p>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <h4>Ingénierie logicielle</h4>
+          <p>Apprenez les principes de la conception ou le développement de programmes et 
+            d’applications web et mobile et explorez le monde fascinant des “codes”. A la fin de votre formation, 
+            vous serez aptes à proposer des solutions pratiques, créatives et innovantes à des particuliers ou des entreprises 
+            pour leurs besoins numériques.</p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h5>Admission</h5>
+          <p>Ouverte aux bacheliers de toutes les séries, l’admission chez HEI se fait par test de niveau :
+              une épreuve de français niveau B2 et d’une épreuve de mathématiques niveau Terminale D. </p>
+              <div>
+                <div>
+                  <h1>01</h1>
+                  <h3>Dépôt de dossiers</h3>
+                  <p>: pour les bacheliers de toutes séries sans limite d’âge</p>
+                  <i>icone </i>
+                </div>
+                <div>
+                  <h1>02</h1>
+                  <h3>Test de niveau :</h3>
+                  <p>composé d’une épreuve de français niveau B2 et d’une épreuve de mathématiques niveau Terminale D</p>
+                  <i>icone fleche</i>
+                </div>
+                <div>
+                  <h1>03</h1>
+                  <h3>Inscription définitive</h3>
+                  <p>si test réussi</p>
+                </div>
+                <button>Inscrivez-vous ici</button>
+                <button>Resulat concours</button>
+              </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <div>
+            <img src="" alt="" />
+          </div>
+          <div>
+            <h1>Le programme pédagogique</h1>
+            <p>Suivant le système LMD, jusqu’au Master, notre formation repose sur un programme pédagogique conçu en adéquation avec les attentes du marché. La formation est sanctionnée par un diplôme de Licence et de Master 
+              en Informatique reconnu par le MESupRes de Madagascar.</p>
+>>>>>>> Stashed changes
 
+              <button>Notre Programme</button>
+          </div>
+          <div>
+            <div>
+              <h1>25%</h1>
+              <p>Apprentissage théoriques en présentiel</p>
+            </div>
+            <div>
+              <h1>25%</h1>
+              <p>Apprentissage sur supports numériques</p>
+            </div>
+            <div>
+              <h1>25%</h1>
+              <p>Travaux individuels de l’étudiant</p>
+            </div>
+            <div>
+              <h1>25%</h1>
+              <p>Apprentissage en entreprise</p>
+            </div>
+            <div>
+              <div><img src="" alt="" /></div>
+              <div><img src="" alt="" /></div>
+              <div><img src="" alt="" /></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <div>
+            <p>Nos étudiants sont formés à l’utilisation et à la maîtrise des langages de programmation Java et JavaScript. Ces deux langages occupent une place de choix dans le domaine du développement logiciel et du web, offrant une polyvalence et une robustesse
+              appréciées par les développeurs à travers le monde.</p>
+          </div>
+          <div>
+            <div>//logo techno
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+          <h1>Nos partenaires</h1>
+          <p>L’employabilité de nos étudiants se base sur la pertinence  de notre programme pédagogique et de la composition de notre corps enseignant mais aussi du soutien et la
+            collaboration des entreprises partenaires</p>
+          </div>
+          <div>
+            <div>//logo partenaires
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+            </div>
+          </div>
+        </div>
+        <div className={"bg-blue-950 texte-white flex flex-col py-3 my-2 px-3"}>
+          <div className='py-2'>
+            <img src="" alt="logo hei" />
+          </div>
+          <div className={"flex flex-row justify-between gap-4"}> 
+            <div className={"flex flex-col gap-8 text-white w-1/4"} >
+              <p>
+                Formation habilitée par l’Etat suivant le système LMD
+              </p>
+              <p>
+                Habilitation MESupRes n°31309/2023
+              </p>
+            </div>
+            <div className={"flex flex-col  text-white w-1/4"}>
+              <h2>Adresse</h2>
+              <p>
+                II J 161 R Ambodivoanjo Ivandry Antananarivo 101, Madagascar
+              </p>
+            </div>
+            <div className={"flex flex-col  text-white w-1/4"}> 
+              <h2>Navigation</h2>
+              <ul>
+                <li>Accueil</li>
+                <li>Actualites</li>
+                <li>Bourse D'etudes</li>
+                <li>Inscription</li>
+              </ul>
+            </div>
+            <div className={"flex flex-col text-white w-1/4"}> 
+              <h2>Médias sociaux</h2>
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+          </div>
+        </div>
+      </section>
       
       
       
