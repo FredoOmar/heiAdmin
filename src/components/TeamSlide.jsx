@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react";
 import Mirado from "../assets/Mirado.jpg";
 import Julien from "../assets/Julien.jpg";
 import Ryan from "../assets/Ryan.jpg";
@@ -7,9 +7,10 @@ import Parison from "../assets/Parison.jpg";
 import Yannick from "../assets/Yannick.jpg";
 import Tahina from "../assets/Tahina.jpg";
 import Lou from "../assets/Lou.jpg";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
-import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faAngleRight} from '@fortawesome/free-solid-svg-icons';
+import {faAngleLeft} from '@fortawesome/free-solid-svg-icons';
+
 export default function TeamSlide() {
     const slides = [
         {
@@ -85,7 +86,8 @@ export default function TeamSlide() {
             <div className="flex flex-row justify-center gap-6 h-full">
                 {getVisibleSlides().map((member, i) => (
                     <div key={i} className="bg-white p-4 rounded-2xl text-center w-100 flex flex-col pt-10">
-                        <img src={member.pic} alt={member.title} className="w-50 h-50 mx-auto rounded-full object-cover mb-4 border-8 border-gray-200" />
+                        <img src={member.pic} alt={member.title}
+                             className="w-50 h-50 mx-auto rounded-full object-cover mb-4 border-8 border-gray-200"/>
                         <h3 className="text-xl font-bold text-blue-950">{member.title}</h3>
                         <p className="text-blue-950 text-lg">{member.text}</p>
                     </div>
@@ -96,14 +98,14 @@ export default function TeamSlide() {
                 onClick={prevSlide}
                 className="absolute left-0 text-2xl text-white p-2 rounded-full hover:bg-white hover:text-blue-700 transition-colors duration-400"
             >
-                <FontAwesomeIcon icon={faAngleLeft} />
+                <FontAwesomeIcon icon={faAngleLeft}/>
             </button>
 
             <button
                 onClick={nextSlide}
                 className="absolute right-0 text-2xl text-white p-2 rounded-full hover:bg-white hover:text-blue-700 transition-colors duration-400"
             >
-                <FontAwesomeIcon icon={faAngleRight} />
+                <FontAwesomeIcon icon={faAngleRight}/>
             </button>
         </div>
     );

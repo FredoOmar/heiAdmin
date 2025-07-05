@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react";
 import hei1 from "../assets/HEI_1.jpg";
 import hei2 from "../assets/HEI_2.jpg";
 import hei3 from "../assets/HEI_3.jpg";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
-import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faAngleRight} from '@fortawesome/free-solid-svg-icons';
+import {faAngleLeft} from '@fortawesome/free-solid-svg-icons';
 
 export default function SliderAuto() {
     const slides = [
@@ -34,9 +34,9 @@ export default function SliderAuto() {
     useEffect(() => {
         const timer = setInterval(() => {
             setIndex((prev) => (prev + 1) % slides.length);
-        }, 10000); // ← toutes les 5 secondes
+        }, 10000);
 
-        return () => clearInterval(timer); // nettoyage
+        return () => clearInterval(timer);
     }, [slides.length]);
 
     const current = slides[index];
@@ -48,7 +48,6 @@ export default function SliderAuto() {
                 backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("${current.bg}")`,
             }}
         >
-            {/* Contenu principal */}
             <div className="px-4 flex flex-col gap-10">
                 <h1 className="text-5xl font-bold">{current.title}</h1>
                 <p className=" max-w-4xl mx-auto text-xl">{current.text}</p>
@@ -61,7 +60,8 @@ export default function SliderAuto() {
                         <a href="https://admin.hei.school/calendar">Emploi du temps</a>
                     </button>
                     <button className="bg-blue-950 px-5 py-2 rounded-sm">
-                        <a href="https://drive.google.com/file/d/1FdooEeAKPO5ucNKXMnyEBZ3RTTE80q7e/view">Programme pédagogique</a>
+                        <a href="https://drive.google.com/file/d/1FdooEeAKPO5ucNKXMnyEBZ3RTTE80q7e/view">Programme
+                            pédagogique</a>
                     </button>
                 </div>
 
@@ -69,20 +69,17 @@ export default function SliderAuto() {
                     Habilitation MESupRES, suivant l'arrêté n°31309/2023
                 </p>
             </div>
-
-            {/* Flèches navigation */}
             <button
                 onClick={goPrev}
                 className="absolute left-4 text-3xl text-white hover:bg-white hover:text-blue-950 transition-colors duration-400 px-3 py-2 rounded-full flex"
             >
-                <FontAwesomeIcon icon={faAngleLeft} />
+                <FontAwesomeIcon icon={faAngleLeft}/>
             </button>
-
             <button
                 onClick={goNext}
                 className="absolute right-4 text-3xl text-white hover:bg-white hover:text-blue-950 transition-colors duration-400 px-3 py-2 rounded-full flex"
             >
-                <FontAwesomeIcon icon={faAngleRight} />
+                <FontAwesomeIcon icon={faAngleRight}/>
             </button>
         </div>
     );
