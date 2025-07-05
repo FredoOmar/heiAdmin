@@ -287,44 +287,50 @@ function App() {
                     <img src={Kante} alt="Kante" className="h-24 object-contain mx-auto"/>
                 </div>
             </section>
-            <section>
-                <div className={"bg-blue-950 texte-white flex flex-col py-3 my-2 px-3"}>
-                    <div className='py-2'>
-                        <img src="" alt="logo hei"/>
+            <footer className={"bg-blue-950 text-lg pt-10"}>
+                <div className={"texte-white flex flex-col max-w-6xl mx-auto my-2 px-3 h-55"}>
+                    <div>
+                        <img className="w-20 h-15" src="/src/assets/HEI_logo.png" alt="logo hei"/>
                     </div>
-                    <div className={"flex flex-row justify-between gap-4"}>
-                        <div className={"flex flex-col gap-8 text-white w-1/4"}>
-                            <p>
+                    <div className={"flex flex-row justify-between gap-4 text-lg"}>
+                        <div className={"flex flex-col gap-8 text-white w-1/4 mt-5"}>
+                            <p className={"text-m font-thin"}>
                                 Formation habilitée par l’Etat suivant le système LMD
                             </p>
-                            <p>
+                            <p className={" text-m font-thin"}>
                                 Habilitation MESupRes n°31309/2023
                             </p>
                         </div>
                         <div className={"flex flex-col  text-white w-1/4"}>
-                            <h2>Adresse</h2>
-                            <p>
+                            <h2 className={"font-bold"}> Adresse </h2>
+                            <p className={"text-m font-thin"}>
                                 II J 161 R Ambodivoanjo Ivandry Antananarivo 101, Madagascar
                             </p>
                         </div>
                         <div className={"flex flex-col  text-white w-1/4"}>
-                            <h2>Navigation</h2>
+                            <h2 className="font-bold"> Navigation</h2>
                             <ul>
-                                <li>Accueil</li>
-                                <li>Actualites</li>
-                                <li>Bourse D'etudes</li>
-                                <li>Inscription</li>
+                                <li className={"text-yellow-500"}>Accueil</li>
+                                <li className={"hover:text-yellow-500"}>Actualites</li>
+                                <li className={"hover:text-yellow-500"}>Bourse D'etudes</li>
+                                <li className={"hover:text-yellow-500"}>Inscription</li>
                             </ul>
                         </div>
                         <div className={"flex flex-col text-white w-1/4"}>
-                            <h2>Médias sociaux</h2>
-                            <i></i>
-                            <i></i>
-                            <i></i>
+                            <h2 className={" font-bold"}>Médias sociaux</h2>
+                            <div className={"flex flex-row gap-4 my-4"}>
+                                <i className="fa-brands fa-facebook text-amber-500 text-3xl"></i>
+                                <i className="fa-brands fa-linkedin  text-amber-500 text-3xl"></i>
+                                <i className="fa-brands fa-instagram  text-amber-500 text-3xl"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
+                <div>
+                    <h1 className={"bg-white font-bold flex flex-row justify-center items-center mt-10"}>© HEI
+                        Madagascar</h1>
+                </div>
+            </footer>
         </>
     )
 }
