@@ -84,7 +84,7 @@ export default function TeamSlide() {
         <div className="relative overflow-hidden h-110 flex justify-center items-center px-10">
             <div className="flex flex-row justify-center gap-6 h-full">
                 {getVisibleSlides().map((member, i) => (
-                    <div key={i} className="bg-white p-4 rounded-2xl text-center w-100 flex flex-col justify-evenly">
+                    <div key={i} className="bg-white p-4 rounded-2xl text-center w-100 flex flex-col pt-10">
                         <img src={member.pic} alt={member.title} className="w-50 h-50 mx-auto rounded-full object-cover mb-4" />
                         <h3 className="text-xl font-bold text-blue-950">{member.title}</h3>
                         <p className="text-blue-950 text-lg">{member.text}</p>

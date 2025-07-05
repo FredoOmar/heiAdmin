@@ -9,6 +9,10 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { faUsers } from '@fortawesome/free-solid-svg-icons';
 import { faMedal } from '@fortawesome/free-solid-svg-icons';
 import bg_2 from './assets/HEI_4.png';
+import debouche from './assets/debouche.png'
+import Cybersecu from './assets/Cybersecu.png'
+import IA from './assets/IA.png'
+import Logicielle from './assets/Logicielle.png'
 function App() {
  
 
@@ -66,49 +70,52 @@ function App() {
             </div>
             <TeamSlide />
         </section>
-        <section>
-        <h5>Quelques débouchés</h5>
-        <p>Formez-vous à une panoplie de métiers du numérique avec nous et venez acquérir les fondements de
-          la programmation (qui vous servira pour les différents métiers) ! Ce sont des métiers porteurs, des métiers
-          du présent, des métiers du futur…</p>
-        <p>Développeur back end, développeur front end, développeurs mobile, chefs de projet,
-          exploitants cloud, analystes cybersécurité, pentesters, auditeur technique SSI, auditeur organisationnel SSI,
-          administrateur système et réseau, développeur de sécurité…</p>
-          <i>icone</i>
-          <i>icone</i>
-          <i>icone</i>
-          <i>icone</i>
-          <i>icone</i>
-          <i>icone</i>
-          <i>icone</i>
-          <img src="" alt="" />
+        <section className={"flex flex-row max-w-6xl mx-auto gap-20 my-15"}>
+            <div className={"w-1/2 flex flex-col justify-center text-blue-950 gap-5 text-lg"}>
+                <h2 className={"text-5xl font-bold"}>Quelques débouchés</h2>
+                <p className={"mb-5"}>Formez-vous à une panoplie de métiers du numérique avec nous et venez acquérir les fondements de
+                    la programmation (qui vous servira pour les différents métiers) ! Ce sont des métiers porteurs, des métiers
+                    du présent, des métiers du futur…</p>
+                <p>Développeur back end, développeur front end, développeurs mobile, chefs de projet,
+                    exploitants cloud, analystes cybersécurité, pentesters, auditeur technique SSI, auditeur organisationnel SSI,
+                    administrateur système et réseau, développeur de sécurité…</p>
+            </div>
+            <img src={debouche} alt="" className={"w-[460px]"} />
         </section>
-      <section>
-        <h5>Domaines</h5>
-        <p>Au cours de vos trois ans de formation, naviguez entre les domaines les plus porteurs du numérique du présent et de l’avenir :</p>
-        <div>
-          <i>icone</i>
-          <h4>Cloud et cybersécurité</h4>
-          <p>Maîtrisez les engrenages des outils en ligne interconnectés sur les nuages (comme sur AWS). Ou encore, 
-            devenez maître de la sécurisation des données en ligne ou des programmes et applications contre les cybermenaces. 
-            Chez HEI, vous allez vous former dans le domaine du cloud et de la cybersécurité.</p>
-        </div>
-        <div>
-          <i>icone</i>
-          <h4>Intelligence artificielle</h4>
-          <p>Le monde de la reconnaissance faciale ou la détection 
-            d’obstacles par les voitures semi-autonomes vous fascinent ? Ce n’est pas sorcier, 
-            cela s’apprend. Apprenez les bases de l’intelligence artificielle lors de vos cours chez HEI.</p>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <h4>Ingénierie logicielle</h4>
-          <p>Apprenez les principes de la conception ou le développement de programmes et 
-            d’applications web et mobile et explorez le monde fascinant des “codes”. A la fin de votre formation, 
-            vous serez aptes à proposer des solutions pratiques, créatives et innovantes à des particuliers ou des entreprises 
-            pour leurs besoins numériques.</p>
-        </div>
-      </section>
+        <section className={"bg-gray-100 text-blue-950 flex flex-col items-center justify-between gap-10 py-20"}>
+            <h2 className={"text-5xl"}>Domaine</h2>
+            <p className={"text-lg"}>Au cours de vos trois ans de formation, naviguez entre les domaines les plus porteurs du numérique du présent et de l’avenir :</p>
+            <div className={"flex flex-row gap-10"}>
+                <div className={"bg-white text-yellow-600 text-lg w-90 flex flex-col items-center text-center px-2.5 py-2.5 gap-2.5 rounded-2xl"}>
+                    <img src={Cybersecu} alt="" className={"object-cover w-40"} />
+                    <h3>Cloud et cybersecurite</h3>
+                    <p className={"text-blue-950 mb-5 px-2.5"}>
+                        Maîtrisez les engrenages des outils en ligne interconnectés sur les nuages (comme sur AWS). Ou encore,
+                        devenez maître de la sécurisation des données en ligne ou des programmes et applications contre les cybermenaces.
+                        Chez HEI, vous allez vous former dans le domaine du cloud et de la cybersécurité.
+                    </p>
+                </div>
+                <div className={"bg-white text-yellow-600 text-lg w-90 flex flex-col items-center text-center px-2.5 py-2.5 gap-2.5 rounded-2xl"}>
+                    <img src={IA} alt="" className={"object-cover w-40"} />
+                    <h3>Intelligence artificielle</h3>
+                    <p className={"text-blue-950 mb-5 px-2.5"}>
+                        Le monde de la reconnaissance faciale ou la détection
+                        d’obstacles par les voitures semi-autonomes vous fascinent ? Ce n’est pas sorcier,
+                        cela s’apprend. Apprenez les bases de l’intelligence artificielle lors de vos cours chez HEI.
+                    </p>
+                </div>
+                <div className={"bg-white text-yellow-600 text-lg w-90 flex flex-col items-center text-center px-2.5 py-2.5 gap-2.5 rounded-2xl"}>
+                    <img src={Logicielle} alt="" className={"object-cover w-40"} />
+                    <h3>Ingénierie logicielle</h3>
+                    <p className={"text-blue-950 mb-5 px-2.5"}>
+                        Apprenez les principes de la conception ou le développement de programmes et
+                        d’applications web et mobile et explorez le monde fascinant des “codes”. A la fin de votre formation,
+                        vous serez aptes à proposer des solutions pratiques, créatives et innovantes à des particuliers ou des entreprises
+                        pour leurs besoins numériques.
+                    </p>
+                </div>
+            </div>
+        </section>
 
       
       
